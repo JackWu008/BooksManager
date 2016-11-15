@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_title_books_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="always"
+        android:title="@string/app_search" />
+    <item
+        android:id="@+id/menu_title_books_add"
+        android:icon="@android:drawable/ic_input_add"
+        android:showAsAction="always"
+        android:title="@string/app_add">
+        <menu>
+            <item
+                android:id="@+id/menu_title_books_isbn"
+                android:title="@string/menu_title_books_isbn" />
+            <item
+                android:id="@+id/menu_title_books_scan"
+                android:title="@string/menu_title_books_scan" />
+        </menu>
+    </item>
+</menu>

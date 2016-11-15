@@ -1,0 +1,30 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.lzzy.booksmanager">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/CustomActionBarTheme">
+        <activity
+            android:name=".activitys.StartActivity_"
+            android:theme="@style/HoloNoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activitys.CategoryActivity_" />
+        <activity android:name=".activitys.BooksActivity_" />
+        <activity android:name=".activitys.BookActivity_" />
+        <activity android:name=".activitys.SearchActivity_" />
+        <activity android:name=".activitys.EditorActivity_" />
+    </application>
+
+</manifest>

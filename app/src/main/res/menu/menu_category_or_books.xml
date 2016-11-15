@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/category_menu_choose"
+        android:title="@string/category_context_menu_choose" />
+    <item
+        android:id="@+id/category_menu_invertSelection"
+        android:title="@string/category_context_menu_invertSelection" />
+    <item
+        android:id="@+id/category_menu_delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/category_context_menu_delete" />
+
+</menu>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">图书</string>
+    <string name="add_category_edt_hint">请输入类别名称,10个字以内哦</string>
+    <string name="category_context_menu_delete">删除</string>
+    <string name="category_context_menu_choose">全选</string>
+    <string name="category_context_menu_invertSelection">反选</string>
+    <string name="category_context_menu_editor">编辑</string>
+    <string name="add_isbn">请输入isbn</string>
+    <string name="app_search">搜索</string>
+    <string name="activity_book_tv_tags">标签:</string>
+    <string name="activity_book_tv_rating">评价:</string>
+    <string name="menu_book_editor">修改</string>
+    <string name="app_add">添加</string>
+    <string name="activity_book_btn_ok">确认</string>
+    <string name="activity_category_tv_hint">还没有类别!快去添加吧"\n"先添加类别才能添加书籍哦</string>
+    <string name="activity_books_tv_hint">还没有书籍哦！快去添加吧</string>
+    <string name="menu_title_books_isbn">isbn</string>
+    <string name="menu_title_books_scan">扫描</string>
+    <string name="menu_editor_save">保存</string>
+    <string name="activity_editor_tv_name">书名</string>
+    <string name="activity_editor_author">作者</string>
+    <string name="activity_editor_publisher">出版社</string>
+    <string name="activity_editor_category">分类</string>
+    <string name="menu_book_verify">确认入库</string>
+    <string name="activity_editor_intro">简介</string>
+</resources>
